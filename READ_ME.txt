@@ -1,7 +1,7 @@
 /***************************************/
 Multithreaded Webserver 
 
-Written in : C++
+Written in : C
 
 Team : G28
 Members :
@@ -13,7 +13,7 @@ Copyright by : TeamG28
 /***************************************/
 
 1.1 What is this?
-1.2	Version 
+1.2 Version 
 1.3 Contents
 1.4 Compiling
 1.5 Running 
