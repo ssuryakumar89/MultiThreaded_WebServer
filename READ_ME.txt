@@ -3,13 +3,6 @@ Multithreaded Webserver
 
 Written in : C
 
-Team : G28
-Members :
-1) Sandeep Kumar  - 560061678
-2) Surya Kumar Selvam - 50026556
-3) Priyanka Samarth - 50060698
-
-Copyright by : TeamG28 
 /***************************************/
 
 1.1 What is this?
@@ -17,10 +10,9 @@ Copyright by : TeamG28
 1.3 Contents
 1.4 Compiling
 1.5 Running 
-1.6 Output
-1.7 Documentation
-1.8 Contact Info
-1.9 Future
+1.6 Request Format
+1.7 Output
+
 
 1.1 What is this?
 ----------------------------------------
@@ -72,19 +64,5 @@ Note: ~ and the string following upto the first '/' will be root directory relat
 	* HEAD request gives the metadata but not the actual content
 	* GET request gives back the actual data requested and after this the connection is terminated.q
 	
-1.8 Documentation
----------------------------------------------------------
-The detailed documentation of the program is provided at request.Please email one of the authors with the subject 'myhttpd Doc' for the documentation which contains the detailed description of the program.
 
-1.9 Contact Info
-----------------------------------------------------------
-	For any bugs and other related issues please email one of the authors with a detailed description of the bug.It will be rectified as soon as possible.
-
-Sandeep : s32@buffalo.edu
-Surya   : suryakum@buffalo.edu
-Priyanka: psamarth@buffalo.edu
-
-Future Improvements 
---------------------------------------------------------
-This http server doesn't handle invalid user inputs(that are passed in commandline arguments). This needs to be handled.
 	
