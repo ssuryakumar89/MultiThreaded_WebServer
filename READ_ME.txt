@@ -17,14 +17,15 @@ Written in : C
 1.1 What is this?
 ----------------------------------------
 
-	This is a Multithreaded webserver developed (as Project requiremet for Operating Systesm (CSE 521) ) which serves request for files.  It is a multithreaded 	server serving files under 2 types of scheduling algorithm, namely First Come First Served(FCFS) and Shortest Job First (SJF).It is written in C/C++. It doesnt log all the requests by default but can be enabled by the command -l. Here the request is accepted by queuing thread and put into queue and the. scheduler thread takes the requests and assign to one of the thread in the threadpool.The server runs in deamon mode in the background and serves the files as requested.
+	This is a Multithreaded webserver developed (as Project requiremet for Operating Systesm (CSE 521) ) which serves request for files.  It is a multithreaded 	server serving files under 2 types of scheduling algorithm, namely First Come First Served(FCFS) and Shortest Job First (SJF).It is written in C. 
+	It doesnt log all the requests by default but can be enabled by the command -l. Here the request is accepted by queuing thread and put into queue and the. scheduler thread takes the requests and assign to one of the thread in the threadpool.The server runs in deamon mode in the background and serves the files as requested.
 For complete list of the commands refer to '-h' option ie. 'myhttpd -h'
 
 
 1.2 Version
 ----------------------------------------
 
-This is the version 1.0 developed by us ( Started Sep 28/2012 & ended on Oct 29/2012). 
+This is the version 1.0 developed ( Started Sep 28/2012 & ended on Oct 29/2012). 
 	
 1.3 Contents
 ----------------------------------------
