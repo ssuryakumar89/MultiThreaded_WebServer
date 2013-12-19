@@ -67,3 +67,7 @@ Note: ~ and the string following upto the first '/' will be root directory relat
 --------------------------------------------
         * HEAD request gives the metadata but not the actual content
         * GET request gives back the actual data requested and after this the connection is terminated.q
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/ssuryakumar89/multithreaded_webserver/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
